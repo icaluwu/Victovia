@@ -3,7 +3,13 @@
 Victovia adalah website statis berbasis **Vue.js** yang menyediakan layanan adopsi kucing. Website ini menampilkan informasi mengenai kucing yang tersedia untuk diadopsi, lokasi tempat adopsi, dan cara menghubungi kami.
 
 ---
+## Kontribusi
+[CookieStudio dalam Freepik](https://www.freepik.com/author/cookie-studio)
+[KatemanGostar dalam Freepik](https://www.freepik.com/author/katemangostar)
+[Freepik dalam Freepik](https://www.freepik.com/author/freepik)
+---
 
+---
 ## 🚀 Fitur Utama
 - ✅ **Halaman Utama (Home)** - Informasi umum tentang Victovia
 - ✅ **Halaman Tentang (About)** - Detail tentang misi dan visi Victovia
