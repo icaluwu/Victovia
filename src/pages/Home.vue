@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <!-- Hero Section -->
-    <section class="hero d-flex align-items-center">
+    <section :style="{ backgroundImage: `url(${heroImage})` }" class="hero d-flex align-items-center">
       <div class="container text-center">
         <h1 class="hero-title">Welcome to Victovia</h1>
         <p class="hero-subtitle">Tempat terbaik untuk menemukan teman berbulu.</p>
@@ -68,14 +68,16 @@ import { storeToRefs } from 'pinia'
 
 const counter = useCounterStore()
 const { cats } = storeToRefs(counter) // Pastikan kita mengakses `cats`
+const { heroImage } = storeToRefs(counter)
 </script>
 
 
 <style>
 /* Hero Section */
 .hero {
-  background: url('/src/assets/img/cat1.webp') no-repeat center center/cover;
-  font-family: Apple Chancery, cursive;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 80vh;
   color: white;
   display: flex;

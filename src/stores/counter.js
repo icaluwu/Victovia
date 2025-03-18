@@ -8,12 +8,16 @@ export const useCounterStore = defineStore('counter', () => {
     count.value++
   }
 
-  // Tambahkan daftar gambar kucing
+  const backgroundImage = ref('/src/assets/img/bg.webp') // Background untuk App.vue
+  const heroImage = ref('/src/assets/img/cat1.webp') // Hero Image untuk Home.vue
+  
+
+  // Daftar gambar kucing
   const cats = ref([
     { name: "Milo", description: "Kucing ramah dan lucu.", image: "/src/assets/img/cat2.webp" },
     { name: "Luna", description: "Suka bermain dan manja.", image: "/src/assets/img/cat4.webp" },
     { name: "Simba", description: "Pemberani dan cerdas.", image: "/src/assets/img/cat5.webp" },
   ])
 
-  return { count, doubleCount, increment, cats }
+  return { count, doubleCount, increment, cats, backgroundImage, heroImage }
 })

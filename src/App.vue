@@ -1,5 +1,5 @@
 <template>
-  <div class="app-container">
+  <div :style="{ backgroundImage: `url(${backgroundImage})` }" class="app-container">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="/">Victovia</a>
@@ -32,15 +32,23 @@
   </div>
 </template>
 
+<script setup>
+import { useCounterStore } from '@/stores/counter.js'
+import { storeToRefs } from 'pinia'
+
+const counter = useCounterStore()
+const { backgroundImage } = storeToRefs(counter)
+</script>
+
 <style>
 /* Background full screen */
 .app-container {
-  background: url('/src/assets/img/bg.webp') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden; /* Hindari oversize */
+  overflow-x: hidden;
+  /* Hindari oversize */
 }
 
 /* Container utama */
@@ -60,8 +68,10 @@
   border-radius: 10px;
   padding: 20px;
   text-align: center;
-  max-width: 90%;  /* Agar tidak terlalu besar */
-  width: 400px; /* Ukuran tetap */
+  max-width: 90%;
+  /* Agar tidak terlalu besar */
+  width: 400px;
+  /* Ukuran tetap */
   color: black;
 }
 
