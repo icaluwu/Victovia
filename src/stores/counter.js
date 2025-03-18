@@ -19,5 +19,12 @@ export const useCounterStore = defineStore('counter', () => {
     { name: "Simba", description: "Pemberani dan cerdas.", image: "/src/assets/img/cat5.webp" },
   ])
 
-  return { count, doubleCount, increment, cats, backgroundImage, heroImage }
+  // Daftar gambar team
+  const team = ref([
+    { name: "Alice", role: "Founder & CEO", image: "src/assets/img/team1.webp" },
+    { name: "Bob", role: "Veterinarian", image: "src/assets/img/team2.webp" },
+    { name: "Charlie", role: "Adoption Specialist", image: "src/assets/img/team3.webp" }
+  ])
+
+  return { count, doubleCount, increment, cats, backgroundImage, heroImage, team }
 })

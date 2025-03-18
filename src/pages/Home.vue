@@ -67,7 +67,7 @@ import { useCounterStore } from '@/stores/counter.js'
 import { storeToRefs } from 'pinia'
 
 const counter = useCounterStore()
-const { cats } = storeToRefs(counter) // Pastikan kita mengakses `cats`
+const { cats } = storeToRefs(counter) // Akses ke`cats` dari counter.js
 const { heroImage } = storeToRefs(counter)
 </script>
 
