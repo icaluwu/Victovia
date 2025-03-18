@@ -8,5 +8,12 @@ export const useCounterStore = defineStore('counter', () => {
     count.value++
   }
 
-  return { count, doubleCount, increment }
+  // Tambahkan daftar gambar kucing
+  const cats = ref([
+    { name: "Milo", description: "Kucing ramah dan lucu.", image: "/src/assets/img/cat2.webp" },
+    { name: "Luna", description: "Suka bermain dan manja.", image: "/src/assets/img/cat4.webp" },
+    { name: "Simba", description: "Pemberani dan cerdas.", image: "/src/assets/img/cat5.webp" },
+  ])
+
+  return { count, doubleCount, increment, cats }
 })
