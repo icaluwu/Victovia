@@ -4,9 +4,9 @@ Victovia adalah website statis berbasis **Vue.js** yang menyediakan layanan adop
 
 ---
 ## Kontribusi
-[CookieStudio dalam Freepik](https://www.freepik.com/author/cookie-studio)
-[KatemanGostar dalam Freepik](https://www.freepik.com/author/katemangostar)
-[Freepik dalam Freepik](https://www.freepik.com/author/freepik)
+1. [CookieStudio dalam Freepik](https://www.freepik.com/author/cookie-studio)
+2. [KatemanGostar dalam Freepik](https://www.freepik.com/author/katemangostar)
+3. [Freepik dalam Freepik](https://www.freepik.com/author/freepik)
 ---
 
 ---
@@ -50,7 +50,11 @@ victovia/
 ```
 
 ## Preview
-![Preview 1](public/view1.png)
-![Preview 2](public/view2.png)
-![Preview 3](public/view3.png)
-![Preview 4](public/view4.png)
+
+![Screenshot 2025-03-18 161748](https://github.com/user-attachments/assets/a1e94375-2816-43f4-bfa8-d10a20b27996)
+
+![Screenshot 2025-03-18 161758](https://github.com/user-attachments/assets/eb26cc66-1c4c-480a-801a-ab185fe68732)
+
+![Screenshot 2025-03-18 161812](https://github.com/user-attachments/assets/400d9614-995e-468b-8bd6-e3f87784ad32)
+
+![Screenshot 2025-03-18 161903](https://github.com/user-attachments/assets/96b4f1ec-f3d1-44f6-998e-d5a99c826dd1)
