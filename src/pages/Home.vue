@@ -11,7 +11,7 @@
 
     <!-- Kenapa Pilih Victovia? -->
     <section class="why-choose text-center py-5">
-      <div class="container">
+      <div class="container border border-black bg-white text-dark">
         <h2>Kenapa Pilih Victovia?</h2>
         <div class="row">
           <div class="col-md-4">

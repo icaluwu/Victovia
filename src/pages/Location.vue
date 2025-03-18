@@ -10,7 +10,7 @@
 
         <!-- Detail Lokasi -->
         <section class="location-details py-5">
-            <div class="container">
+            <div class="container border border-black bg-white text-dark">
                 <h2 class="text-center">Alamat Kami</h2>
                 <p class="text-center">Jl. Kucing Bahagia No. 10, Jakarta, Indonesia</p>
                 <div class="row">

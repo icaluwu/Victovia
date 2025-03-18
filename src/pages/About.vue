@@ -11,7 +11,7 @@
 
         <!-- Tentang Kami -->
         <section class="about-content py-5">
-            <div class="container">
+            <div class="container border border-black bg-white text-dark">
                 <h2 class="text-center">Siapa Kami?</h2>
                 <p class="text-center">Victovia adalah komunitas pecinta kucing yang bertujuan untuk menyediakan rumah
                     bagi kucing terlantar dan membantu mereka menemukan pemilik baru yang bertanggung jawab.</p>
