@@ -37,7 +37,7 @@ Victovia adalah website statis berbasis **Vue.js** yang menyediakan layanan adop
 ```
 victovia/
 │── src/
-│   ├── assets/         # Folder gambar & assets
+│   ├── public/         # Folder gambar & public
 │   ├── components/     # Komponen reusable (Navbar, Footer, dll.)
 │   ├── views/          # Halaman utama (Home, About, Location)
 │   ├── stores/         # Pinia store untuk state management
@@ -49,3 +49,8 @@ victovia/
 │── README.md           # Dokumentasi proyek
 ```
 
+## Preview
+![Preview 1](public/view1.png)
+![Preview 2](public/view2.png)
+![Preview 3](public/view3.png)
+![Preview 4](public/view4.png)
