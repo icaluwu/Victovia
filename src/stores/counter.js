@@ -9,7 +9,8 @@ export const useCounterStore = defineStore('counter', () => {
   }
 
   const backgroundImage = ref('/src/assets/img/bg.webp') // Background untuk App.vue
-  const heroImage = ref('/src/assets/img/cat1.webp') // Hero Image untuk Home.vue
+  const heroImage = ref('/src/assets/img/cat1.webp') // Hero Image untuk Home.vue, About.vue
+  const locImage = ref('/src/assets/img/cat3.webp') // Hero Image untuk Location.vue
   
 
   // Daftar gambar kucing
@@ -26,5 +27,5 @@ export const useCounterStore = defineStore('counter', () => {
     { name: "Charlie", role: "Adoption Specialist", image: "src/assets/img/team3.webp" }
   ])
 
-  return { count, doubleCount, increment, cats, backgroundImage, heroImage, team }
+  return { count, doubleCount, increment, cats, backgroundImage, heroImage, team, locImage }
 })
